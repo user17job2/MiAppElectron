@@ -1,0 +1,48 @@
+:root {
+    --scheme:light dark;
+    color-scheme: var(--scheme);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: aqua; */
+}
+
+span{
+    width: 70%;
+    height: 45px;
+    padding: 10PX;
+    text-align: center;
+    border:1px solid rgb(255, 169, 169);
+    /* margin-top: -710px; */
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 3px;
+    position: relative;
+    top: -5px;
+    }
+ button{
+    width: 100PX;
+    height: 50px;
+    background-color: rgb(165, 235, 128);
+    padding: 10px;
+    /* color: rgb(0, 0, 0); */
+    font-size: 30px;
+    border-radius: 5px;
+ }
+ button:hover{
+    background-color: antiquewhite;
+ }
+
+
+ .container{
+     text-align: center;
+     align-items: center;
+     padding: 5px;
+     width: 80%;
+     height: 80vh;
+     border: 2px solid black;
+     margin: auto;
+     margin-top: 30px;
+ } 
